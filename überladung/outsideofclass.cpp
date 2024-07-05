@@ -14,7 +14,7 @@ public:
 	}
 };
 
-// Überladung des << Operators außerhalb der Klasse
+// Überladung des << Operators außerhalb der Klasse => dadurch lassen sich Komplexe Zahlen ausgeben
 std::ostream& operator<<(std::ostream& os, const Complex& c)
 {
 	os << c.real << " + "  << c.imag << "j";
